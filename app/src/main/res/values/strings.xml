@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ShoeStore</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>s
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="title_welcome">Welcome</string>
+    <string name="go_to_instructions">Go to instructions</string>
+    <string name="welcome_message">You are welcome in the Shoe Store inventory app</string>
+    <string name="instructions">Instructions</string>
+    <string name="instructions_desc">Press the shoe list button to see all shoes available</string>
+    <string name="shoe_list">Shoe list</string>
+</resources>
