@@ -29,13 +29,13 @@
         android:text="@string/instructions_desc"
         android:textAlignment="center"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/buttonInstructions"
+        app:layout_constraintBottom_toTopOf="@+id/buttonGoToShoeList"
         app:layout_constraintEnd_toEndOf="@+id/textViewInstructionsTitle"
         app:layout_constraintStart_toStartOf="@+id/textViewInstructionsTitle"
         app:layout_constraintTop_toBottomOf="@+id/textViewInstructionsTitle" />
 
     <Button
-        android:id="@+id/buttonInstructions"
+        android:id="@+id/buttonGoToShoeList"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
