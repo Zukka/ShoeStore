@@ -13,4 +13,6 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="log_out">Log out</string>
+    <string name="detail">Go to detail</string>
+    <string name="add_shoe">Add shoe</string>
 </resources>
