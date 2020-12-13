@@ -65,7 +65,7 @@ class DetailsFragment : Fragment() {
     }
 
     private fun navigateToShoeList() {
-        findNavController().navigate(DetailsFragmentDirections.actionDetailsFragmentToShoeListFragment())
+        findNavController().navigateUp()
     }
 
 }
