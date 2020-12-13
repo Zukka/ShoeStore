@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="floating_button_margin">64dp</dimen>
+    <dimen name="extra_border_margin">32dp</dimen>
+    <dimen name="large_border_margin">16dp</dimen>
+    <dimen name="border_margin">8dp</dimen>
+    <dimen name="large_text_size">18sp</dimen>
+    <dimen name="number_text_size">16sp</dimen>
 </resources>

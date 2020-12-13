@@ -1,29 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
     <data>
         <variable
-            name="viewModel"
+            name="shoeViewModel"
             type="com.udacity.shoestore.viewmodel.ShoeViewModel" />
     </data>
-<FrameLayout
+<androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ShoeListFragment">
 
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:id="@+id/shoeItemsLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-        </LinearLayout>
+            android:orientation="vertical" />
     </ScrollView>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -31,11 +33,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
-        android:layout_marginEnd="@dimen/floating_button_margin"
-        android:layout_marginBottom="@dimen/floating_button_margin"
+        android:layout_marginEnd="@dimen/extra_border_margin"
+        android:layout_marginBottom="@dimen/extra_border_margin"
         android:contentDescription="@string/add_shoe"
-        android:src="@drawable/ic_add">
+        android:src="@drawable/ic_add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
-    </com.google.android.material.floatingactionbutton.FloatingActionButton>
-</FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
